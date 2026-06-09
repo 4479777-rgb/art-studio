@@ -1,0 +1,55 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.header{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-between;
+}
+.card{
+    width: 20%;
+    height: 200px;
+    background-size: cover;
+    border-radius: 15px;
+    position: relative;
+    margin: 40px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+p{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 70px;
+    border-radius: 0px 0px 15px 15px;
+    margin: 0px;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+.thegan{
+    background-image: url(images/plant1.jpg);
+}
+.tomato{
+    background-image: url(images/pizzatomato.png);
+}
+.brokoli{
+    background-image: url(images/header_pizza.png);
+}
+.meat{
+    background-image: url(images/pizzameat.png);
+}
+.chees{
+    background-image: url(images/pizzacheeses.png);
+}
+.peperoni{
+    background-image: url(images/cheef.png);
+}
