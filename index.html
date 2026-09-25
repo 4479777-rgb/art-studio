@@ -4,89 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="menu">
-        <div class="conteiner-menu">
-            <a href="#"><img src="img/icons/site-logo.svg"></a>
-            <a href="#"><img src="img/icons/section2-ic.svg"></a>
-            <a href="#"><img src="img/icons/section3-ic.svg"></a>
-            <a href="#"><img src="img/icons/section4-ic.svg"></a>
-            <a href="#"><img src="img/icons/section5-ic.svg"></a>
-            <a href="#"><img src="img/icons/section6-ic.svg"></a>
-        </div>
-
-    </div>
-    <div class="social-menu">
-        <div class="conteiner-social-menu">
-            <a href="#"><img src="img/icons/social-fb-ic.svg"></a>
-            <a href="#"><img src="img/icons/social-inst-ic.svg"></a>
-            <a href="#"><img src="img/icons/social-tiktok-ic.svg"></a>
-            <a href="#"><img src="img/icons/social-vk-ic.svg"></a>
-        </div>
-    </div>
-    <div class="header">
-        <div class="header-left">
-            <div class="rect dblue"></div>
-            <div class="rect red"></div>
-            <div class="rect yellow"></div>
-            <div class="rect lblue"></div>
-        </div>
-        <div class="header-right">
-            <h1>Art<span>studio</span></h1>
-            <div class="header-buttons">
-                <a href="">photography</a>
-                <a href="">art</a>
-                <a href="">design and branding</a>
-            </div>
-        </div>
-    </div>
-    <!-- <div class="test">
-        <div class="test1">
-
-        </div>
-        <div class="test2"></div>
-    </div> -->
-    <div class="about">
-        <div class="about-bg">
-            <h2 class="bg-title">Знакомимся</h2>
-        </div>
-        <div class="about-content">
-            <div class="about-left">
-                <h3>Кто мы?</h3>
-                <p>Наша студия создает крутые дизайны и брендинг.
-Мы делаем качественно. В числе <br>наших клиентов крупные компании и вообще мы молодцы</p>
-            </div>
-            <div class="about-right">
-                <div class="color-rect top"></div>
-                <div class="color-rect midle"></div>
-                <div class="color-rect bottom"></div>
-            </div>
-        </div>
-    </div>
-    <div class="design">
-        <div class="design-bg">
-            <h2 class="bg-title">Наша фишка</h2>
-        </div>
-        <div class="design-content">
-            <h2>Современный дизайн</h2>
-            <p>Разрушаем стереотипы, делаем крутой дизайн и создаем ШЕДЕВРЫ</p>
-            <img src="img/pictures/3rd-section-img.png">
-        </div>
-    </div>
-    <div class="photo">
-        <div class="photo-left"></div>
-        <div class="photo-right">
-            <div class="photo-right-bg">
-                <h2 class="bg-title">Мы полны сюрпризов</h2>
-                <div class="wave-bg"></div>
-            </div>
-            <div class="photo-right-content">
-                <h3>А ещё...</h3>
-                <p>У нас крутые фотографы,которые могут сделать вам фотки</p>
-            </div>
-        </div>
-    </div>
+    <h1>This is a presentation about what backend and frontend are.</h1>
+    <h2>Frontend</h2>
+    <p>Frontend development is based on three main programming languages: HTML, CSS, and JS.</p>
+    <p>HTML is responsible for the website's structure—text, images, links, headings, and video.</p>
+    <p>CSS handles styles, background colors, text, positioning, rounded corners, mobile responsiveness, sizing, and much more.</p>
+    <p>JavaScript handles interactivity; it allows for the creation of event listeners for user actions—such as clicks, hover effects, form submission validation, and conditional logic.</p>
+    <p>HTML consists of tags like `&lt;a href=""&gt;&lt;/a&gt;` (a link); the `href` attribute is required only for links.</p>
+    <p>You also need a class for these tags so you can target them individually in CSS; otherwise, if you apply styles directly to the tag itself, those styles would affect every instance of that tag. You define it like this, for example: `&lt;a href="" class="link">&lt;/a>`.</p>
+    <p>You also need to link the CSS file in the HTML; this is done using the `<link>` tag:
+`&lt;link rel="stylesheet" href="style.css">`
+The file must be created and located in the same folder as the HTML file; I named mine `style.css`.</p>
+    <p>Also, if you are using Windows, you can download Visual Studio Code from Microsoft.
+After creating a file, simply type `!` and press Enter; this will automatically generate all the necessary HTML tags. I also recommend downloading the "Live Server" extension, which allows the site to update automatically without needing a manual refresh.</p>
+    <p>To define styles in a CSS file, you can specify the tag name; for example, you could write a `<p>` tag in your HTML and then write `p { color: blue; }` in your CSS. The text color will then turn blue if you write anything inside that `<p>` tag.</p>
+    <p>All style names are in English, so if you want to add a background color property, you need to write: *{
+    background-color:blue
+}
+The * symbol represents all tags.</p>
+    <p>I haven't fully mastered JS yet,but I can say a few things with confidence:to include it, you need to use the `&lt;script href="script.js">` tag.&lt;script>`</p>
+    <h2>backend</h2>
+    <p>The backend can be written in various languages, such as Python, C++, C#, C, Go, and assembly.</p>
+    <p>Unlike HTML, CSS, and JS, these languages ​​allow you to create not only websites or applications but also games.</p>
+    <p>Libraries are also created in these languages; these consist of ready-made functions—such as the `time` library—so you don't have to write them from scratch.to track code execution time</p>
+    <p>But there are also frameworks—which are essentially libraries designed for websites—that affect the site's file system.</p>
+    <p>I am learning to write applications using the Python Django framework.</p>
+    <p>The backend is primarily needed for the database to handle account creation, authorization, and authentication.</p>
+    <p>For example, with WhatsApp: when we send a message, it is saved in the database, and if we delete it, that database record is removed.</p>
+    <p>Also, when we create an account, it is saved in the database so that the account isn't deleted after you log out.</p>
+    <p>I’ve covered the most important points in this message, but there are also game engines—which are even more powerful than libraries since they are full-fledged applications. They come with so many built-in functions that a small game might require only 100 lines of code or less; for comparison, creating just one level of *Plants vs. Zombies* in Python using the Arcade library required me to write over 2,000 lines of code.</p>
+    <h2>If you'd like, I can create a mini interactive site with examples, or compile a list of links to resources covering all frontend tags and properties.</h2>
+    <h1>The end</h1>
 </body>
 </html>
